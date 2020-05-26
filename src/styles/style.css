@@ -1,0 +1,281 @@
+body {
+  font-family: Open Sans !important;
+  background: #F8F8F8 !important;
+  color: #F8F8F8 !important;
+}
+
+.basicDescriptionText {
+  color: #2B2B28 !important;
+  font-weight: 0 !important;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
+
+.jumbotronSale {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #F8F8F8 !important;
+}
+
+.modal-open {
+  padding: 0px !important;
+}
+
+.backdropModal {
+  opacity: 0.8 !important;
+}
+
+.modalX {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+div.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-dialog {
+  margin-top: 5% !important;
+}
+
+.card {
+  border-radius: 0px !important;
+}
+
+.cardGroup {
+  margin: 15px !important;
+  padding: 3px !important;
+}
+
+.subtitleLargest {
+  color: #2B2B28 !important;
+  font-weight: bolder !important;
+  font-size: 20px;
+  margin-left: 35px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+hr {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+.subtitleLarge {
+  color: #F8F8F8 !important;
+  font-weight: 0 !important;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
+
+.navbarMain {
+  -webkit-box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3) !important;
+          box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3) !important;
+  background-color: rgba(133, 206, 176, 0.911) !important;
+  color: #CCCCCC !important;
+}
+
+.nav-link {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.navbar-brand {
+  color: #F8F8F8 !important;
+}
+
+footer {
+  letter-spacing: 1px;
+  background-color: #F8F8F8;
+  margin-top: 60px;
+}
+
+a {
+  color: #2B2B28 !important;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-weight: lighter;
+  -webkit-transition: -webkit-transform 0.5s linear !important;
+  transition: -webkit-transform 0.5s linear !important;
+  transition: transform 0.5s linear !important;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear !important;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #F8F8F8 !important;
+  font-size: 18px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+a small {
+  color: #2B2B28;
+  -webkit-transition: -webkit-transform 0.5s linear !important;
+  transition: -webkit-transform 0.5s linear !important;
+  transition: transform 0.5s linear !important;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear !important;
+  margin-right: 1rem;
+}
+
+a small:hover {
+  color: #2B2B28;
+}
+
+.textCentre {
+  text-align: center;
+  display: block !important;
+}
+
+nav a.footerLink:hover {
+  color: #2B2B28 !important;
+}
+
+a img {
+  -webkit-transition: -webkit-transform 0.5s linear !important;
+  transition: -webkit-transform 0.5s linear !important;
+  transition: transform 0.5s linear !important;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear !important;
+}
+
+a img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 0px !important;
+}
+
+.footerTopElementOne {
+  border: 0.3px solid #2B2B28;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.356);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.356);
+  border-radius: 1px;
+}
+
+.footerBottom {
+  background-color: #CCCCCC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2px;
+  padding-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 5px !important;
+  margin-top: 10px;
+}
+
+.chosenForYouCarousel {
+  margin-left: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.chosenForYouRow {
+  margin: 0px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5% !important;
+}
+
+.chosenForYouCarousel a.carousel-control-prev {
+  margin-left: -60px !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../assets/prevIcon.png") !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../assets/nextIcon.png") !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.carousel-indicators li {
+  background-color: rgba(133, 206, 176, 0.911) !important;
+  height: 8px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  a:hover {
+    color: #F8F8F8 !important;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  a img:hover {
+    -webkit-transform: none !important;
+            transform: none !important;
+  }
+  .modal-dialog {
+    margin-top: 15% !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .subtitleLargest {
+    margin-left: 10px;
+  }
+  .chosenForYouCarousel {
+    margin-left: 35px;
+  }
+  .chosenForYouCarousel a.carousel-control-prev {
+    margin-left: -30px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .chosenForYouCarousel a.carousel-control-prev, .chosenForYouCarousel a.carousel-control-next {
+    width: 15% !important;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .footerTopElementOne:first-child a {
+    font-size: x-small;
+  }
+  .modal-dialog {
+    margin-top: 35% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
