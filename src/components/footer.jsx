@@ -48,6 +48,8 @@ const Footer = () => {
                 </Row>
                
        <Row className="row-12 textCentre mt-1"> Edisonstraße 63/2 12459 Berlin</Row>
+       <Row className="row-12 textCentre mt-1"> studio@glamourhochzeit.eu</Row>
+       <Row className="row-12 textCentre mt-1"> 01771234567</Row>
        </Col>
       </Container>
     </footer>
