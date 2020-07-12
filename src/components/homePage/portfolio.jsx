@@ -40,7 +40,7 @@ const Portfolio = ({
     getProductDetails(id);
   };
 
-  const firstSlide = fetchReducer.slice(0, 8).map((item) => (
+  const firstSlide = fetchReducer.slice(0, 10).map((item) => (
     <Row className="col-12 col-md-6" key={item.id}>
       <Card className="chosenForYouRow" onClick={() => handleShow(item.id)}>
         <a>
@@ -49,7 +49,7 @@ const Portfolio = ({
       </Card>
     </Row>
   ));
-  const secondSlide = fetchReducer.slice(9, 17).map((item) => (
+  const secondSlide = fetchReducer.slice(11, 21).map((item) => (
     <Row className="col-12 col-md-6" key={item.id}>
       <Card className="chosenForYouRow" onClick={() => handleShow(item.id)}>
         <a>
@@ -92,11 +92,11 @@ const Portfolio = ({
         <Carousel.Item>
           <CardGroup>{firstSlide}</CardGroup>
         </Carousel.Item>
-        {/* <Carousel.Item>
+        <Carousel.Item>
             <CardGroup>
           {secondSlide}
           </CardGroup>
-          </Carousel.Item> */}
+          </Carousel.Item>
       </Carousel>
     </Container>
   );
