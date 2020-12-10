@@ -113,7 +113,6 @@ a:hover {
   font-size: 18px;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  z-index: 90;
 }
 
 a small {
@@ -138,16 +137,9 @@ nav a.footerLink:hover {
   color: #2B2B28 !important;
 }
 
-a img {
-  -webkit-transition: -webkit-transform 0.5s linear !important;
-  transition: -webkit-transform 0.5s linear !important;
-  transition: transform 0.5s linear !important;
-  transition: transform 0.5s linear, -webkit-transform 0.5s linear !important;
-}
-
-a img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+div.chosenForYouRow a:hover {
+  -webkit-transform: none;
+          transform: none;
   padding: 0px !important;
 }
 

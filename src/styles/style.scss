@@ -113,7 +113,6 @@ a:hover{
     color:$primaryTextWhite !important;
     font-size: 18px;
     transform: scale(1.1);
-    z-index:90;
 }
 
 a small{
@@ -137,12 +136,8 @@ nav a.footerLink:hover{
 }
 
 
-a img {
-    transition: transform 0.5s linear !important;
-}
-
-a img:hover{
-    transform: scale(1.1);
+div.chosenForYouRow a:hover{
+    transform:none;
     padding:0px !important;
 }
 
