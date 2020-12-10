@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 
 //components
 import SlideMain from './slideMain';
-import Portfolio from './portfolio';
 
 const MainPage = (props,match) => {
 
@@ -15,7 +14,6 @@ const MainPage = (props,match) => {
   return (
       <>
       <SlideMain />
-      <Portfolio/>
       </>
     
   );

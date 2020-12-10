@@ -16,12 +16,12 @@ const NavMain = () => {
     <>
       {/* navbar */}
       <Navbar className="navbarMain" expand="lg" sticky="top">
-        <Navbar.Brand>    <img
-                  src={logo}
-                  alt="home"
-                  height="35px"
-                  width="auto"
-                ></img></Navbar.Brand>
+        <Navbar.Brand>  
+        <Link to={"/"}>
+            {" "}
+            <img src={logo} alt="home" height="45px" width="auto"></img>
+          </Link>
+                </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
